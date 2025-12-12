@@ -8,4 +8,4 @@ def read_input(day: int, test: bool = False):
     if test is True:
         path = Path(f"day{day:02d}/test-input.txt")
 
-    return path.read_text().strip().split("\n")
+    return path.read_text().strip()

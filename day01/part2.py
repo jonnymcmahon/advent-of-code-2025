@@ -3,7 +3,7 @@ from workshop import read_input
 
 def main():
 
-    data = read_input(1)
+    data = read_input(1).split("\n")
 
     # starting position of 50
     pos = 50
