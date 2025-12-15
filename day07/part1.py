@@ -3,7 +3,7 @@ from workshop import read_input
 
 def main():
 
-    input = read_input(7, False).split("\n")
+    input = read_input(7).split("\n")
 
     # convert from str to array
     for i, row in enumerate(input):
